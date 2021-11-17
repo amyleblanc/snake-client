@@ -8,6 +8,11 @@ const connect = function () { // establish connection with the game server
 
   conn.setEncoding('utf8');
 
+  conn.on('connect', () => {
+    conn.write('Name: AMC');
+    console.log('Successfully connected to game server.');
+  });
+
   conn.on('data', (data) => {
     console.log('Game Alert: ', data);
   });
