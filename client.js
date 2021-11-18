@@ -11,6 +11,10 @@ const connect = function () { // establish connection with the game server
   conn.on('connect', () => {
     conn.write('Name: AMC');
     console.log('Successfully connected to game server.');
+    // conn.write('Move: up'); // play around with sending "move" commands
+    // let interval = setInterval(() => {
+    //   conn.write('Move: up');
+    // }, 100);
   });
 
   conn.on('data', (data) => {
