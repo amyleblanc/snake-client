@@ -29,6 +29,12 @@ const handleUserInput = function (key) {
   if (key === '\u0064' || key === '\u0044') { // d or D
     connection.write('Move: right');
   }
+  if (key === '\u0062' || key === '\u0042') { // b or B
+    connection.write('Say: I IZ DA BEST');
+  }
+  if (key === '\u0068' || key === '\u0048') { // h or H
+    connection.write('Say: HAHA, 2 SLOW!!');
+  }
 };
 
 module.exports = { setupInput };
