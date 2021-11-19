@@ -7,7 +7,7 @@ const connect = function() { // establish connection with the game server
   conn.setEncoding('utf8');
 
   conn.on('connect', () => {
-    conn.write('Name: AMC'); // insert initials to be displayed over player's snake
+    conn.write('Name: ME!'); // insert initials to be displayed over player's snake
     console.log('Successfully connected to game server.');
   });
 
