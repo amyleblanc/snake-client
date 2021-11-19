@@ -1,5 +1,5 @@
 const net = require('net');
-const { connect } = require('./client');
+// const { connect } = require('./client');
 
 let connection;
 
@@ -20,7 +20,7 @@ const handleUserInput = function (key) {
   if (key === '\u0077' || key === '\u0057') { // w or W
     connection.write('Move: up');
   }
-  if (key === '\u0061' || key === '\u0410') { // a or A
+  if (key === '\u0061' || key === '\u0041') { // a or A
     connection.write('Move: left');
   }
   if (key === '\u0073' || key === '\u0053') { // s or S
