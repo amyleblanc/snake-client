@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![game play screen shot](https://user-images.githubusercontent.com/89119218/142735602-990abb3d-f8ce-43cf-ad60-acb6d6c350e6.png)
+![game play screen shot](https://user-images.githubusercontent.com/89119218/142736537-1ff76afb-9441-4db5-837f-34e7ff928b6c.png)
 
 ## Getting Started
 
